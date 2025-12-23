@@ -1,7 +1,10 @@
 import express from "express";
 import type { Response, Request } from "express";
 import cors from "cors";
+import bodyParser from "body-parser";
+
 import { RequestLogger,ErrorLogger,Logger } from "./utils/index.ts";
+import router from './src/index.ts';
 // import "./eventRegister.ts";
 // import eventEmitter from "./utils/EventEmitter.ts";
 
@@ -11,9 +14,10 @@ app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.text({ type: 'text/xml' }));
 
 app.use(RequestLogger.middleware());
-
+app.use('/api', router);
 app.get("/", (req: Request, res: Response) => {
     logger.info("Root endpoint accessed");
     logger.warn("This is a warning message");

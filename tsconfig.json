@@ -10,6 +10,8 @@
     "module": "nodenext",
     "target": "esnext",
     "types": [],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],

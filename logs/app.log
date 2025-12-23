@@ -9,3 +9,10 @@
 2025-12-23 19:00:46 [warn] This is a warning message 
 2025-12-23 19:00:46 [error] This is an error message 
 2025-12-23 19:00:46 [info] GET / 200 13 - 10.274 ms {} 
+2025-12-23 19:30:27 [info] GET /api/wxCaht 404 149 - 4.123 ms {} 
+2025-12-23 19:30:42 [info] GET /api/wxCaht 404 149 - 2.098 ms {} 
+2025-12-23 19:33:08 [info] GET /api/wxCaht 404 149 - 2.633 ms {} 
+2025-12-23 19:35:47 [info] GET /api/wxCaht 404 149 - 2.613 ms {} 
+2025-12-23 19:35:50 [info] GET /api/wxChat 200 15 - 3.449 ms {} 
+2025-12-23 19:56:13 [info] GET /api/wxChat 200 5 - 4.031 ms {} 
+2025-12-23 19:58:43 [info] POST /api/wxChat 200 16 - 1.409 ms {} 
