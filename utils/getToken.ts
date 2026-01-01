@@ -1,16 +1,17 @@
 
 
-import AxiosService from "./Axios";
+import AxiosService from "./Axios.ts";
 import config from "../src/config.ts";
-import RedisService from "./Redis";
+import RedisService from "./Redis.ts";
 import { Logger } from './index.ts';
+import {CacheConstants} from "./constant/CacheConstants.ts";
 
 export async function getToken(): Promise<string>{
     const logger = Logger.getInstance();
     logger.info("Fetching access token...");
     // 优先从缓存取token
     const redisService = RedisService.getInstance();
-    const cacheKey = `wxbot:access_token:${config.AppID}`;
+    const cacheKey = `${CacheConstants.ACCESS_TOKEN_KEY}${config.AppID}`;
     const access_token = await redisService.get(cacheKey);
     if (access_token) {
         return access_token;

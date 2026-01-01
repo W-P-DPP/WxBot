@@ -1,4 +1,5 @@
-import axios, { AxiosInstance as AxiosInstanceType, AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
+import axios from 'axios';
+import type { AxiosInstance as AxiosInstanceType, AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 import config from '../src/config.ts';
 import { Logger } from './index.ts';
 
@@ -39,7 +40,7 @@ class AxiosService {
         // Response Interceptor
         this.axiosInstance.interceptors.response.use(
             (response: AxiosResponse) => {
-                this.logger.info(`[Axios Response] ${response.status} ${response.config.url}`);
+                this.logger.info(`[Axios Response] ${response.status} ${response.config.url} ${JSON.stringify(response.data)}`);
                 return response;
             },
             (error) => {
