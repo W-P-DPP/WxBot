@@ -3,6 +3,11 @@
     "EncodingAESKey":"sAqEiTlrAPydi82yEwMC3qL6MnysZ0gJubGclyvTxNr",
     "AppID":"wx802d9bb2afad627c",
     "AppSecret":"ef60fa37c56db5e101f49a51063cf653",
+    "expires_in":7200,
+    "axios":{
+        "baseURL":"https://api.weixin.qq.com/cgi-bin/",
+        "timeout":5000
+    },
     "Redis":{
         "host":"127.0.0.1",
         "port":6379

@@ -43,3 +43,7 @@
 2026-01-01 10:49:33 [error] This is an error message 
 2026-01-01 10:49:33 [info] GET http://azenv.net/ 200 13 - 13.905 ms {} 
 2026-01-01 10:57:57 [info] POST /api/wxChat?signature=6ed321bce75d2d927ee1d46c087e99e08a3e36b7&timestamp=1767236277&nonce=834637887&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 318 - 6.193 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767236276</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[j]]></Content>\n<MsgId>25300740435723720</MsgId>\n</xml>" 
+2026-01-01 11:55:09 [info] [Redis] connecting... 
+2026-01-01 11:55:09 [info] [Redis] ready 
+2026-01-01 11:56:04 [info] [Redis] connecting... 
+2026-01-01 11:56:04 [info] [Redis] ready 

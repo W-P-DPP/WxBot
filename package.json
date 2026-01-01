@@ -16,6 +16,7 @@
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "awaitqueue": "^3.3.0",
+    "axios": "^1.13.2",
     "body-parser": "^2.2.1",
     "cors": "^2.8.5",
     "express": "^5.2.1",
