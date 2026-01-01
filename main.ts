@@ -6,6 +6,7 @@ import bodyParser from "body-parser";
 import { RequestLogger, ErrorLogger, Logger } from "./utils/index.ts";
 import router from './src/index.ts';
 import RedisService from "./utils/Redis.ts";
+import initDataBase from "./utils/mysql.ts";
 // import "./eventRegister.ts";
 // import eventEmitter from "./utils/EventEmitter.ts";
 async function initApp() {
@@ -31,7 +32,7 @@ async function initApp() {
   app.use(ErrorLogger.middleware());
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
-    console.log(`Server is running 1on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
   });
 }
 
@@ -40,6 +41,7 @@ async function bootstrap() {
     await initApp();
     const redis = RedisService.getInstance();
     await redis.connect();
+    await initDataBase();
   } catch (err) {
     console.error('Bootstrap error:', err);
     // Ensure process exits so nodemon restarts and we get visible error
