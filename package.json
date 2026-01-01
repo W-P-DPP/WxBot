@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec \"node --loader ts-node/esm\" ./main.ts",
+    "dev": "nodemon --exec \"tsx\" ./main.ts",
     "build": "vite build",
     "start:dist": "node dist/main.cjs"
   },
@@ -20,6 +20,7 @@
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "morgan": "^1.10.1",
+    "redis": "^5.10.0",
     "winston": "^3.19.0",
     "xml2js": "^0.6.2"
   },
@@ -34,6 +35,7 @@
     "@types/xml2js": "^0.4.14",
     "nodemon": "3.1.11",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.0"
   }

@@ -25,3 +25,21 @@
 2025-12-24 19:09:04 [warn] This is a warning message 
 2025-12-24 19:09:04 [error] This is an error message 
 2025-12-24 19:09:04 [info] GET / 200 13 - 3.349 ms {} 
+2026-01-01 10:23:10 [info] POST /api/wxChat?signature=e95f661e1e9d6afd0367131eba9389f579507842&timestamp=1767234190&nonce=1894784155&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 0 - 5.140 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767234189</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[1]]></Content>\n<MsgId>25300707793558252</MsgId>\n</xml>" 
+2026-01-01 10:23:44 [info] POST /api/wxChat?signature=fe9a6ba40a0e55831e99be262656ec7986a20121&timestamp=1767234224&nonce=1601829578&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 0 - 7.773 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767234223</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[2]]></Content>\n<MsgId>25300707941688548</MsgId>\n</xml>" 
+2026-01-01 10:24:53 [info] POST /api/wxChat?signature=f1c88d8c43032e055ffdad8f8a4ce9099bdf4c89&timestamp=1767234292&nonce=1458393664&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 318 - 7.380 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767234292</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[3]]></Content>\n<MsgId>25300709288667319</MsgId>\n</xml>" 
+2026-01-01 10:25:26 [info] POST /api/wxChat?signature=cef27b7691215551a9402ed3bba857b92ae8b08d&timestamp=1767234326&nonce=482517038&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 318 - 8.170 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767234325</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[11]]></Content>\n<MsgId>25300713269905399</MsgId>\n</xml>" 
+2026-01-01 10:26:28 [info] POST /api/wxChat?signature=fe578f889cf17e2fbbad00bff7468edfb0db7f7e&timestamp=1767234388&nonce=711751239&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 319 - 8.145 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767234387</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[34]]></Content>\n<MsgId>25300711864343184</MsgId>\n</xml>" 
+2026-01-01 10:37:40 [info] Root endpoint accessed 
+2026-01-01 10:37:40 [warn] This is a warning message 
+2026-01-01 10:37:40 [error] This is an error message 
+2026-01-01 10:37:40 [info] GET / 200 13 - 7.073 ms {} 
+2026-01-01 10:37:41 [info] Root endpoint accessed 
+2026-01-01 10:37:41 [warn] This is a warning message 
+2026-01-01 10:37:41 [error] This is an error message 
+2026-01-01 10:37:41 [info] GET / 200 13 - 2.376 ms {} 
+2026-01-01 10:49:33 [info] Root endpoint accessed 
+2026-01-01 10:49:33 [warn] This is a warning message 
+2026-01-01 10:49:33 [error] This is an error message 
+2026-01-01 10:49:33 [info] GET http://azenv.net/ 200 13 - 13.905 ms {} 
+2026-01-01 10:57:57 [info] POST /api/wxChat?signature=6ed321bce75d2d927ee1d46c087e99e08a3e36b7&timestamp=1767236277&nonce=834637887&openid=o0Hm96MBcSPPxXWnm8l3V5qxC2Pw 200 318 - 6.193 ms "<xml><ToUserName><![CDATA[gh_c351c9f92d4a]]></ToUserName>\n<FromUserName><![CDATA[o0Hm96MBcSPPxXWnm8l3V5qxC2Pw]]></FromUserName>\n<CreateTime>1767236276</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[j]]></Content>\n<MsgId>25300740435723720</MsgId>\n</xml>" 
