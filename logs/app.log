@@ -16,3 +16,12 @@
 2025-12-23 19:35:50 [info] GET /api/wxChat 200 15 - 3.449 ms {} 
 2025-12-23 19:56:13 [info] GET /api/wxChat 200 5 - 4.031 ms {} 
 2025-12-23 19:58:43 [info] POST /api/wxChat 200 16 - 1.409 ms {} 
+2025-12-24 11:55:23 [error] Cannot read properties of undefined (reading 'toString') {"stack":"TypeError: Cannot read properties of undefined (reading 'toString')\n    at Parser.exports.Parser.Parser.parseString (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/xml2js@0.6.2/node_modules/xml2js/lib/parser.js:326:19)\n    at Parser.parseString (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/xml2js@0.6.2/node_modules/xml2js/lib/parser.js:5:59)\n    at Object.exports.parseString (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/xml2js@0.6.2/node_modules/xml2js/lib/parser.js:383:19)\n    at file:///Users/zhengweipeng/Desktop/my/WxBot/utils/parseXML.ts:5:12\n    at new Promise (<anonymous>)\n    at parseXML (file:///Users/zhengweipeng/Desktop/my/WxBot/utils/parseXML.ts:4:10)\n    at chat (file:///Users/zhengweipeng/Desktop/my/WxBot/src/chat/chat.ts:6:22)\n    at Layer.handleRequest (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/router@2.2.0/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/router@2.2.0/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/zhengweipeng/Desktop/my/WxBot/node_modules/.pnpm/router@2.2.0/node_modules/router/lib/route.js:117:3)","method":"POST","url":"/api/wxChat","ip":"::ffff:127.0.0.1"}
+2025-12-24 11:55:23 [info] POST /api/wxChat 500 35 - 9.781 ms {} 
+2025-12-24 11:55:44 [info] POST / 404 140 - 2.180 ms {} 
+2025-12-24 19:08:43 [info] POST / 404 140 - 3.244 ms {} 
+2025-12-24 19:08:58 [info] POST / 404 140 - 0.524 ms {} 
+2025-12-24 19:09:04 [info] Root endpoint accessed 
+2025-12-24 19:09:04 [warn] This is a warning message 
+2025-12-24 19:09:04 [error] This is an error message 
+2025-12-24 19:09:04 [info] GET / 200 13 - 3.349 ms {} 
