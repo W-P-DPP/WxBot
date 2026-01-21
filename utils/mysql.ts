@@ -15,11 +15,9 @@ export default async function initDataBase() {
         port:  config.Database.port || 3306,
         username:  config.Database.user || 'root',
         password:  config.Database.password || 'password',
-        database:  config.Database.database || 'test',
-        // 核心点 👇
+        database:  config.Database.database || 'wxbot',
         connectorPackage: 'mysql2',
-
-        synchronize: false, // 生产环境一定 false
+        synchronize: true, // 生产环境一定 false
         logging: ['error'],
         timezone: config.Database.timezone || '+08:00',
         charset:config.Database.charset || 'utf8mb4',

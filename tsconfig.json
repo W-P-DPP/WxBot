@@ -1,6 +1,9 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
+    "verbatimModuleSyntax": true,
+      "experimentalDecorators": true,      // 启用实验性装饰器语法
+    "emitDecoratorMetadata": true,       // 发出装饰器元数据，用于反射
     // File Layout
     // "rootDir": "./src",
     // "outDir": "./dist",

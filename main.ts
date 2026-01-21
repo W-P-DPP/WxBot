@@ -7,7 +7,7 @@ import { RequestLogger, ErrorLogger, Logger } from "./utils/index.ts";
 import router from './src/index.ts';
 import RedisService from "./utils/Redis.ts";
 import initDataBase from "./utils/mysql.ts";
-// import "./eventRegister.ts";
+import "./eventRegister.ts";
 // import eventEmitter from "./utils/EventEmitter.ts";
 async function initApp() {
   const app = express();
@@ -44,7 +44,6 @@ async function bootstrap() {
     await initDataBase();
   } catch (err) {
     console.error('Bootstrap error:', err);
-    // Ensure process exits so nodemon restarts and we get visible error
     process.exit(1);
   }
 }
